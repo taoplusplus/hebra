@@ -8,59 +8,108 @@ _project:
   url: ""
   version: 0.1.0
 _route:
+  - (==) VOD .link([All Hebra Shrines in 50m 52s for reference]https://youtu.be/iU_FzMK1kk0)
   - Plateau:
-      - Do not activate time of day
+      - SoR Clip:
+          notes: No time of day
       - 6 Pepper
       - Pot Lid
       - Boko Spear
-      - 3 Hylian Shroom
+      - 2 Hylian Shroom
       - Traveler's Bow
       - 5 Arrow
       - _Shrine::JaBaij
+
       - _Tower::GreatPlateau
+
+      - _Chest<Ruby>:
+          notes: Optional. I just use it as the check item for IST.
+          hide-icon-on-map: true
       - _Shrine::OmanAu
+
       - 2 Stamella Shroom
       - Woodcutter's Axe
       - Torch
+      - Pot Lid
       - _Shrine::OwaDaim
+
       - _Shrine::KehNamut
+
       - Paraglider:
           icon: king
           coord: [-809.33, 263.58, 1964.35]
           split-type: UserDefined
 
   - IST:
-      - BLSS to Rito Stable
-      - Big Hearty Radish:
+      - BLSS to Rito Stable:
+          notes: Can steer this all the way if you avoid the bad parts of the slope at Tabantha Stable. Otherwise, just restart BLSS there.
+      - _Material<Big Hearty Radish>:
           coord: [-3247.09, 231.49, -1833.05]
-      - Hearty Truffle
+      - _Material<Hearty Truffle>:
+          hide-icon-on-map: true
       - 2 Wildberry
       - Cook Radish + Truffle
       - IST with Beedle:
-          notes: .link([IST Sim script]https://ist.itntpiston.app/?c=H4sIAAAAAAACA32PwU7DQAxE7%2FsV%2FoVC6Y1Dg1A5tKLqgnpAHFzW6VpxcHA2QP8eJ7n1wGnGkmeeZkMFFlBpo7EjNPcvah%2FZdf1L42X4TULWV%2FoDd7A2c13AXsuWE6xgT11HBrcQs6m2cAOxYEsi6PbIkk5kdhkRfH5yQLkcMHGfp%2BqhrmWERMFCsIRnO%2Fm1EU5k4cgl%2F5cLD6qN08hxaTf0E%2F%2Bt1cQ1k93nKfQ%2B16AI7JxhjBIqI2ycFkVLH6LvC49YrpvC6yd9Ddz5MCZJ4UCimOb32f8BQVOVGzsBAAA%3D)
+          notes: .link([IST Sim script]https://ist.itntpiston.app/?c=H4sIAAAAAAACA32PwU7DQAxE7%2FsV%2FoVC6Y1Dg1A5tKLqgnpAHFzW6VpxcHA2QP8eJ7n1wGnGkmeeZkMFFlBpo7EjNPcvah%2FZdf1L42X4TULWV%2FoDd7A2c13AXsuWE6xgT11HBrcQs6m2cAOxYEsi6PbIkk5kdhkRfH5yQLkcMHGfp%2BqhrmWERMFCsIRnO%2Fm1EU5k4cgl%2F5cLD6qN08hxaTf0E%2F%2Bt1cQ1k93nKfQ%2B16AI7JxhjBIqI2ycFkVLH6LvC49YrpvC6yd9Ddz5MCZJ4UCimOb32f8BQVOVGzsBAAA%3D). Gives 999 hearty meals.
 
   - Hebra 1:
+      - WB .dir(W>) + .dir(<N)
       - _Shrine::MakaRah
+
+      - Climb and run out
+      - WB .dir(E) + .dir(N) + .dir(E) to enemy camp
+      - WB .dir(N) + midair
       - _Shrine::MozoShenno
+
+      - WB .dir(E) + .dir(N) + .dir(E) + .dir(E>)
       - _Shrine::ShadaNaw
-      - 5 Fire Arrow:
+
+      - WB .dir(NW) + .dir(NW)
+      - _Chest<5 Fire Arrow>:
           coord: [-3692.34, 354.87, -3832.97]
+          notes: For melting ice at Goma Asaagh.
+
+      - WB .dir(W) + dir(W)
       - _Shrine::HiaMiu
+
+      - WB .dir(E)
+      - Set skew and clip in:
+          notes: .link([To Quomo clip tutorial]https://youtu.be/MZqANcvFr4c?t=16259)
       - _Shrine::ToQuomo
 
   - Hebra 2:
       - _Warp::Shrine::ShadaNaw:
           line-color: red
+
+      - WB .dir(<S)
       - _Shrine::GomaAsaagh
+
+      - Melt ice and run through
+      - WB .dir(<S)
       - _Shrine::GeeHarah
+
+      - WB .dir(W) + .dir(S) + .dir(W)
+      - Swim to cryo block
       - _Shrine::LannoKooh
+
+      - Swim to cryo block
+      - WB .dir(S>)
       - _Shrine::DunbaTaag
 
   - Hebra 3:
       - _Warp::Shrine::ShadaNaw:
           line-color: lime
+
+      - WB .dir(<E)
       - _Shrine::RokUwog
+
+      - WB .dir(N)
+      - BLSS to labyrinth
       - _Shrine::QazaTokki
+
+      - WB .dir(W) + .dir(W) + .dir(W)
       - _Shrine::ShaGehma
+
+      - BLSS
       - _Shrine::RinOyaa:
           notes: GG
