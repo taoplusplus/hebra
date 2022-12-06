@@ -8,7 +8,7 @@ _project:
   url: ""
   version: 0.1.0
 _route:
-  - (==) VOD .link([All Hebra Shrines in 50m 52s for reference]https://youtu.be/iU_FzMK1kk0)
+  - (==) VOD .link([Run in 50m 51s for reference]https://youtu.be/0ATiUHYycew)
   - Plateau:
       - SoR Clip:
           notes: No time of day
