@@ -46,7 +46,7 @@ _route:
 
   - IST:
       - BLSS to Rito Stable:
-          notes: Can steer this all the way if you avoid the bad parts of the slope at Tabantha Stable. Otherwise, just restart BLSS there.
+          notes: .link([Example]https://youtu.be/0ATiUHYycew?t=1113). Can steer this all the way if you avoid the bad parts of the slope at Tabantha Stable. Otherwise, just restart BLSS there.
       - _Material<Big Hearty Radish>:
           coord: [-3247.09, 231.49, -1833.05]
       - _Material<Hearty Truffle>:
