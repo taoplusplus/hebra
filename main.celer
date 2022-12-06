@@ -27,8 +27,12 @@ _route:
           hide-icon-on-map: true
       - _Shrine::OmanAu
 
+      - .loc(Old Man's Hut):
+          coord: [-778.00, 194.95, 2254.00]
+          icon: location
       - 2 Stamella Shroom
-      - Woodcutter's Axe
+      - Woodcutter's Axe:
+          notes: Want 2-handed weapon for ToS skips, 1-handed weapon for IST.
       - Torch
       - Pot Lid
       - _Shrine::OwaDaim
@@ -56,7 +60,7 @@ _route:
       - WB .dir(W>) + .dir(<N)
       - _Shrine::MakaRah
 
-      - Climb and run out
+      - Swim, take updraft, and climb
       - WB .dir(E) + .dir(N) + .dir(E) to enemy camp
       - WB .dir(N) + midair
       - _Shrine::MozoShenno
@@ -69,7 +73,7 @@ _route:
           coord: [-3692.34, 354.87, -3832.97]
           notes: For melting ice at Goma Asaagh.
 
-      - WB .dir(W) + dir(W)
+      - WB .dir(W) + .dir(W)
       - _Shrine::HiaMiu
 
       - WB .dir(E)
